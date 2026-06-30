@@ -1,0 +1,9 @@
+name: Vault
+version: "1.0"
+description: Replacement for Vault with build-in placeholder and removed unused stuff
+main: net.milkbowl.vault.Vault
+api-version: "1.13"
+load: STARTUP
+provides: [Vault]
+softdepend: [PlaceholderAPI]
+author: ["nezxenka"]
